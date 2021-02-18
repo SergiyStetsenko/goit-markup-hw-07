@@ -90,6 +90,9 @@
   fill: #afb1b8;
   background-size: contain;
 }
+.masha .icon {
+  fill: #ffffff;
+}
 .second {
   font-size: 14px;
   line-height: 1.71;
@@ -118,6 +121,15 @@
   text-align: center;
   justify-content: end;
   position: relative;
+}
+
+.body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .yoga {
   width: 370px;
@@ -251,7 +263,8 @@
   font-size: 26px;
   line-height: 1.2;
 }
-.white {
+
+.bot-logo .white {
   color: #ffffff;
 }
 .new {
@@ -391,6 +404,7 @@ address {
   padding-right: 15px;
   margin: 0 auto;
   background-color: #ffffff;
+  box-sizing: inherit;
 }
 .logo {
   display: block;
@@ -450,6 +464,9 @@ address {
 .riko {
   fill: var(--title-text-color);
   margin-right: 10px;
+}
+.white .logo {
+  color: #ffffff;
 }
 /* header container */
 /* components */
