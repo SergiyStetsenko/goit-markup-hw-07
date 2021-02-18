@@ -82,4 +82,12 @@
 .color {
   color: var(--accent-color);
 }
+.contacts {
+  display: flex;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 /* header container */

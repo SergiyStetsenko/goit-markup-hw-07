@@ -1,20 +1,4 @@
-:root {
-  --primary-text-color: #212121;
-  --title-text-color: #757575;
-  --accent-color: #2196f3;
-}
-body {
-  color: var(--primary-text-color);
-  background-color: #ffffff;
-  margin: 0;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
 /* header */
-html {
-  box-sizing: border-box;
-}
 *,
 *::before,
 *::after {
@@ -29,25 +13,9 @@ html {
   color: var(--accent-color);
 }
 
-.color {
-  color: var(--accent-color);
-}
-
-.contacts {
-  display: flex;
-  font-weight: 500;
-  margin: 0px;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
 .wera {
   margin-right: 10px;
   text-align: center;
-}
-ul li {
-  list-style: none;
 }
 
 .link:hover,
@@ -79,32 +47,6 @@ ul li {
 }
 .iten:hover svg {
   fill: var(--accent-color);
-}
-
-/*main*/
-.containet {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-h1 {
-  color: #ffffff;
-}
-
-ul {
-  margin: 0px;
-  padding: 0px;
 }
 
 .klass {
