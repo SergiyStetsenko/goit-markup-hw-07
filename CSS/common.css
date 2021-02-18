@@ -4,28 +4,15 @@
 *::after {
   box-sizing: inherit;
 }
-.text {
-  margin: 0 auto;
-}
 
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
 }
 
-.wera {
-  margin-right: 10px;
-  text-align: center;
-}
-
 .link:hover,
 .link:focus {
   color: var(--accent-color);
-}
-.conta {
-  display: flex;
-  align-items: center;
-  padding: 0;
 }
 
 .link.current {
@@ -49,12 +36,6 @@
   fill: var(--accent-color);
 }
 
-.klass {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-
 .masha:hover,
 .masha:focus {
   border: 1px solid var(--accent-color);
@@ -71,15 +52,6 @@
 }
 .masha:focus {
   border: 1px solid var(--accent-color);
-}
-
-.lalala {
-  fill: #ffffff;
-  background-size: contain;
-}
-
-.address {
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .icon:hover,

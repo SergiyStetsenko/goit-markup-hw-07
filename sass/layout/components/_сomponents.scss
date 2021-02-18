@@ -18,7 +18,24 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
+button {
+  font-family: inherit;
+}
+h3,
+p {
+  margin-bottom: 0px;
+}
+
+/*основное меню страницы*/
+li a {
+  text-decoration: none;
+  display: block;
+}
 p {
   color: var(--title-text-color);
 }
