@@ -17,10 +17,10 @@
   line-height: 1.2;
 }
 .white {
-  color: #ffffff;
+  color: $main-white-color;
 }
 .new {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .bottom .logo {
   display: block;
@@ -29,7 +29,7 @@
   padding-right: 0px;
 }
 .white-adderess {
-  color: #ffffff;
+  color: $main-white-color;
   font-size: 14px;
   line-height: 1.71;
   padding-bottom: 9px;
@@ -46,7 +46,7 @@
 .contacts-color {
   display: flex;
   align-items: center;
-  color: var(--title-text-color);
+  color: $title-text-color;
   text-decoration: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -88,7 +88,7 @@ address {
   height: 44px;
 }
 .vova {
-  color: #ffffff;
+  color: $main-white-color;
   font-family: inherit;
   font-weight: 700;
   font-size: 14px;
@@ -100,7 +100,7 @@ address {
   display: flex;
 }
 .widiid {
-  color: var(--title-text-color);
+  color: $title-text-color;
   width: 358px;
   display: flex;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -119,9 +119,9 @@ address {
   border-radius: 4px;
 }
 .subutom {
-  color: #ffffff;
-  background-color: var(--accent-color);
-  border: #ffffff;
+  color: $main-white-color;
+  background-color: $accent-color;
+  border: $main-white-color;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -138,14 +138,14 @@ address {
   width: 24px;
   height: 24px;
   position: absolute;
-  fill: #ffffff;
+  fill: $main-white-color;
   margin-left: 10px;
   margin-top: 3px;
 }
 .submit {
-  color: #ffffff;
-  background-color: var(--accent-color);
-  border: #ffffff;
+  color: $main-white-color;
+  background-color: $accent-color;
+  border: $main-white-color;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;

@@ -29,7 +29,7 @@
   transform: translate(-50%, -50%);
   min-width: 528px;
   min-height: 581px;
-  background-color: #ffffff;
+  background-color: $main-white-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -60,7 +60,7 @@
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.16;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .wid {
   width: 448px;
@@ -107,7 +107,7 @@
 }
 .ssulka {
   margin-left: 5px;
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration: underline;
   font-size: 14px;
   line-height: 1.7px;
@@ -126,14 +126,14 @@
   padding-left: 15px;
   padding-bottom: 14px;
   height: 15px;
-  border: 2px solid black;
+  border: 2px solid $black-color;
   border-radius: 2px;
   left: 0;
 }
 .check:checked + .check-label:before {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   background-image: url(../images/icon.svg);
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .ewcw {
   position: absolute;
@@ -145,11 +145,11 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #ffffff;
+  background: $main-white-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .ewcw {
-  fill: #000000;
+  fill: $black-color;
 }
 textarea {
   resize: none;
@@ -158,6 +158,6 @@ textarea {
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 30px;
-  background-color: #ffffff;
+  background-color: $main-white-color;
 }
 /* modal */

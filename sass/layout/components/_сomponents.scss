@@ -1,11 +1,6 @@
-:root {
-  --primary-text-color: #212121;
-  --title-text-color: #757575;
-  --accent-color: #2196f3;
-}
 .body {
-  color: var(--primary-text-color);
-  background-color: #ffffff;
+  color: $primary-text-color;
+  background-color: $main-white-color;
   margin: 0;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -41,10 +36,10 @@ li a {
   display: block;
 }
 p {
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 h1 {
-  color: #ffffff;
+  color: $main-white-color;
 }
 
 ul {

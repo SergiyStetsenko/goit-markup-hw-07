@@ -32,7 +32,7 @@
 .hero-title {
   margin: 0px;
   padding-bottom: 30px;
-  color: #ffffff;
+  color: $main-white-color;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -44,9 +44,9 @@
   display: inline-block;
   padding: 10px;
   border-radius: 4px;
-  color: #ffffff;
-  background-color: var(--accent-color);
-  border: #ffffff;
+  color: $main-white-color;
+  background-color: $accent-color;
+  border: $main-white-color;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
