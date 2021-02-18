@@ -267,6 +267,7 @@
 .bot-logo .white {
   color: #ffffff;
 }
+
 .new {
   color: var(--accent-color);
 }
@@ -625,13 +626,14 @@ html {
   font-size: 14px;
   line-height: 1.7px;
 }
-.ssulka {
-  margin-left: 5px;
+.sulka {
   color: var(--accent-color);
   text-decoration: underline;
   font-size: 14px;
   line-height: 1.7px;
+  text-decoration: none;
 }
+
 .yoyo {
   display: flex;
   justify-content: center;
@@ -698,6 +700,7 @@ html {
   margin-top: 30px;
   margin-left: 30px;
   border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .product-thumb {
   position: relative;
@@ -751,7 +754,7 @@ html {
   color: var(--primary-text-color);
 }
 .site {
-  margin: px;
+  margin-top: 16px;
   font-size: 16px;
   line-height: 1.8;
   color: var(--title-text-color);

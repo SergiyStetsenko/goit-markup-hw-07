@@ -11,7 +11,7 @@
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-ul li {
+.fon {
   list-style: none;
 }
 h2,
@@ -24,6 +24,7 @@ ul {
 *::before,
 *::after {
   box-sizing: inherit;
+  text-decoration: none;
 }
 
 button {
