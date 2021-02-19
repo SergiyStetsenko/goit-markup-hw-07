@@ -27,7 +27,6 @@
 
 .goood:hover, .goood:focus {
   background-color: #2196f3;
-  border: 1px solid #2196f3;
 }
 
 .goood:hover svg,
@@ -921,7 +920,7 @@ address {
   line-height: 1.7px;
 }
 
-.sulka {
+.ssulka {
   margin-left: 5px;
   color: #2196f3;
   text-decoration: underline;
@@ -1004,6 +1003,15 @@ textarea {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+}
+
+.sulka {
+  color: #2196f3;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 1.7px;
+  list-style: none;
+  text-decoration: none;
 }
 
 .mani {
@@ -1091,13 +1099,6 @@ textarea {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-}
-
-.techno {
-  display: flex;
-  padding-top: 16px;
-  padding-right: 10px;
-  padding-left: 32px;
 }
 
 .site {

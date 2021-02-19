@@ -16,6 +16,14 @@
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
+.sulka {
+  color: $accent-color;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 1.7px;
+  list-style: none;
+  text-decoration: none;
+}
 .mani {
   padding: 6px 22px;
   margin-right: 8px;
@@ -93,12 +101,6 @@
   line-height: 2;
   letter-spacing: 0.06em;
   color: $primary-text-color;
-}
-.techno {
-  display: flex;
-  padding-top: 16px;
-  padding-right: 10px;
-  padding-left: 32px;
 }
 .site {
   margin: px;
