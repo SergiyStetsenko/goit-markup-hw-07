@@ -8,6 +8,7 @@
 .lopo {
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 .elena {
   margin-right: 70px;
@@ -15,6 +16,9 @@
 .bot-logo {
   font-size: 26px;
   line-height: 1.2;
+}
+.bot-logo .white {
+  color: $main-white-color;
 }
 .white {
   color: $main-white-color;
@@ -34,11 +38,12 @@
   line-height: 1.71;
   padding-bottom: 9px;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
 }
 .info {
   font-size: 14px;
   line-height: 1.71;
+  list-style: none;
+  color: $title-text-color;
 }
 .finish {
   padding-bottom: 9px;
@@ -54,10 +59,16 @@
 address {
   font-style: normal;
 }
+.contacts-color.address {
+  color: rgba(255, 255, 255, 0.6);
+}
 .sow {
   display: block;
   padding-top: 21px;
   margin-right: 93px;
+}
+.masha svg {
+  fill: #ffffff;
 }
 .foma {
   display: block;
@@ -68,6 +79,7 @@ address {
   align-items: center;
   justify-content: space-between;
   width: 220px;
+  list-style: none;
 }
 .masha {
   display: flex;

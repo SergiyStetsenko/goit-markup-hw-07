@@ -1,51 +1,6 @@
-.body {
-  color: $primary-text-color;
-  background-color: $main-white-color;
-  margin: 0;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-.fon {
-  list-style: none;
-}
-h2,
-h3,
-p,
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-*::before,
-*::after {
-  box-sizing: inherit;
-  text-decoration: none;
-}
-
-button {
-  font-family: inherit;
-}
-h3,
-p {
-  margin-bottom: 0px;
-}
-
-/*основное меню страницы*/
-li a {
-  text-decoration: none;
-  display: block;
-}
-p {
-  color: $title-text-color;
-}
-h1 {
-  color: $main-white-color;
-}
-
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-html {
-  box-sizing: border-box;
-}
+$primary-text-color: #212121;
+$title-text-color: #757575;
+$accent-color: #2196f3;
+$main-white-color: #ffffff;
+$black-color: #000000;
+$fill-color: #afb1b8;

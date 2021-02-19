@@ -9,6 +9,7 @@
   display: flex;
   align-content: center;
   justify-content: space-between;
+  list-style: none;
 }
 .bot {
   background-color: $main-white-color;
@@ -44,6 +45,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style: none;
 }
 .happe {
   width: 44px;

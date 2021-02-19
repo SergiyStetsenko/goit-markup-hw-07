@@ -1,19 +1,19 @@
 /* header */
 .logo {
-  &:hover,
-  &:focus {
+  :hover,
+  :focus {
     color: $accent-color;
   }
 }
 
 .site-naw {
-  &.current {
+  .current {
     color: $accent-color;
   }
 }
 .icon {
-  &:hover,
-  &:focus {
+  :hover,
+  :focus {
     fill: $main-white-color;
   }
 }
@@ -45,7 +45,7 @@
 input {
   &:hover,
   &:focus {
-    border: 1px solid$accent-color;
+    border: 1px solid $accent-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
