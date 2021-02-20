@@ -68,10 +68,7 @@
   text-align: center;
   justify-content: center;
 }
-.contacts-color:hover,
-.contacts-color:focus {
-  color: $accent-color;
-}
+
 .contacts-color {
   display: flex;
   align-items: center;
@@ -87,10 +84,7 @@
   fill: $title-text-color;
   margin-right: 10px;
 }
-.logo:hover,
-.logo:focus {
-  color: $accent-color;
-}
+
 .color {
   color: $accent-color;
 }
