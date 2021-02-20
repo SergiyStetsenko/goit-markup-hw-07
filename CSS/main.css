@@ -11,10 +11,6 @@
 }
 
 /* header */
-.site-naw .current {
-  color: #2196f3;
-}
-
 .icon:hover, .icon:focus {
   fill: #ffffff;
 }
@@ -777,6 +773,10 @@ address {
 
 .logo {
   color: #212121;
+}
+
+.site-naw .current {
+  color: #2196f3;
 }
 
 .logo {

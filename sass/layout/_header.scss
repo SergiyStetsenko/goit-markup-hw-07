@@ -16,6 +16,11 @@
 .logo {
   color: $primary-text-color;
 }
+.site-naw {
+  .current {
+    color: $accent-color;
+  }
+}
 .logo {
   display: block;
   padding-top: 24px;
